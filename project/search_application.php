@@ -22,6 +22,7 @@ $query = "SELECT * FROM job_posting WHERE id = '$job_id'";
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="icon" href="images/logo.png">
 		<!-- ICON -->
 		<script src="https://kit.fontawesome.com/876c2d2ac2.js" crossorigin="anonymous"></script>
 	</head>
@@ -29,7 +30,7 @@ $query = "SELECT * FROM job_posting WHERE id = '$job_id'";
     <body>
 		<section class="sub-header">
 			<nav>
-				<a href="index.html"><img src="images/logo.png"></a>
+				<a href="index.php"><img src="images/logo.png"></a>
 				<div class="nav-links" id="navLinks">
 					<i class="fa fa-times" onclick="hideMenu()"></i>
 					<ul>
